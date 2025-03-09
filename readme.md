@@ -1,6 +1,6 @@
-# C7z keymap for Corne split keyboard
+# c7z keymap for Corne split keyboard
 
-Personal keymap, named C7z (pronounce "citizen").  
+Personal keymap, named c7z (pronounce "citizen").  
 Designed for French coder to ease learning on a [Corne keyboard](https://github.com/foostan/crkbd).
 
 The first layer is an AZERTY keymap.  
