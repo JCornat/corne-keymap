@@ -81,28 +81,27 @@
                 <rect width="52" height="52" rx="5" ry="5"/>
                 <text x="26" y="30" style="font-size: 19px;">↹</text>
             </g>
-            <g transform="translate(0 120)">
-                <rect width="52" height="52" rx="5" ry="5"/>
-                <text x="26" y="30" style="font-size: 19px;">⇧</text>
+            <g transform="translate(0 120)" class="specialKey" id="acc">
+                <g>
+                    <rect width="52" height="52" rx="5" ry="5"/>
+                    <text x="26" y="30">Acc</text>
+                </g>
             </g>
         </g>
 
         <g class="col_1">
             <g transform="translate(0 0)">
                 <rect width="52" height="52" rx="5" ry="5"/>
-                <text x="12.8" y="43.4" class="level1 acc">ç</text>
                 <text x="12.8" y="20.6" class="level2">A</text>
                 <text x="38.0" y="43.4" class="sym">^</text>
             </g>
             <g transform="translate(0 60)">
                 <rect width="52" height="52" rx="5" ry="5"/>
-                <text x="12.8" y="43.4" class="level1 acc">à</text>
                 <text x="12.8" y="20.6" class="level2">Q</text>
                 <text x="38.0" y="43.4" class="sym">{</text>
             </g>
             <g transform="translate(0 120)">
                 <rect width="52" height="52" rx="5" ry="5"/>
-                <text x="12.8" y="43.4" class="level1 acc">ù</text>
                 <text x="12.8" y="20.6" class="level2">W</text>
                 <text x="38.0" y="43.4" class="sym">~</text>
                 <text x="38.0" y="43.4" class="nav"/>
@@ -112,13 +111,14 @@
         <g class="col_2">
             <g transform="translate(0 0)">
                 <rect width="52" height="52" rx="5" ry="5"/>
+                <text x="12.8" y="43.4" class="level1 acc">ç</text>
                 <text x="12.8" y="20.6" class="level2">Z</text>
                 <text x="38.0" y="43.4" class="sym">&lt;</text>
                 <text x="38.0" y="43.4" class="nav">⇱</text>
             </g>
             <g transform="translate(0 60)">
                 <rect width="52" height="52" rx="5" ry="5"/>
-                <text x="12.8" y="43.4" class="level1 acc">é</text>
+                <text x="12.8" y="43.4" class="level1 acc">à</text>
                 <text x="12.8" y="20.6" class="level2">S</text>
                 <text x="38.0" y="43.4" class="sym">(</text>
                 <text x="38.0" y="43.4" class="nav">←</text>
@@ -133,13 +133,14 @@
         <g class="col_3">
             <g transform="translate(0 0)">
                 <rect width="52" height="52" rx="5" ry="5"/>
+                <text x="12.8" y="43.4" class="level1 acc">^</text>
                 <text x="12.8" y="20.6" class="level2">E</text>
                 <text x="38.0" y="43.4" class="sym">&gt;</text>
                 <text x="38.0" y="43.4" class="nav">↑</text>
             </g>
             <g transform="translate(0 60)">
                 <rect width="52" height="52" rx="5" ry="5"/>
-                <text x="12.8" y="43.4" class="level1 acc">è</text>
+                <text x="12.8" y="43.4" class="level1 acc">é</text>
                 <text x="12.8" y="20.6" class="level2">D</text>
                 <text x="38.0" y="43.4" class="sym">)</text>
                 <text x="38.0" y="43.4" class="nav">↓</text>
@@ -154,12 +155,14 @@
         <g class="col_4">
             <g transform="translate(0 0)">
                 <rect width="52" height="52" rx="5" ry="5"/>
+                <text x="12.8" y="43.4" class="level1 acc">ù</text>
                 <text x="12.8" y="20.6" class="level2">R</text>
                 <text x="38.0" y="43.4" class="sym">$</text>
                 <text x="38.0" y="43.4" class="nav">⇲</text>
             </g>
             <g transform="translate(0 60)">
                 <rect width="52" height="52" rx="5" ry="5"/>
+                <text x="12.8" y="43.4" class="level1 acc">è</text>E
                 <text x="12.8" y="20.6" class="level2">F</text>
                 <text x="38.0" y="43.4" class="sym">}</text>
                 <text x="38.0" y="43.4" class="nav">→</text>
@@ -194,7 +197,7 @@
         <g class="thb_3 specialKey">
             <g>
                 <rect width="52" height="52" rx="5" ry="5"/>
-                <text x="26" y="30">Alt</text>
+                <text x="26" y="30">⇧</text>
             </g>
         </g>
         <g class="thb_4 specialKey">
@@ -203,10 +206,10 @@
                 <text x="26" y="30">Ctrl</text>
             </g>
         </g>
-        <g class="thb_5 specialKey" id="acc">
+        <g class="thb_5 specialKey" id="sym">
             <g>
                 <rect width="52" height="82" rx="5" ry="5"/>
-                <text x="26" y="45">Acc</text>
+                <text x="26" y="45">Sym</text>
             </g>
         </g>
     </g>
@@ -348,10 +351,10 @@
                 <text x="26" y="30">⎵</text>
             </g>
         </g>
-        <g class="thb_8 specialKey" id="sym">
+        <g class="thb_8 specialKey">
             <g>
                 <rect width="52" height="52" rx="5" ry="5"/>
-                <text x="26" y="30">Sym</text>
+                <text x="26" y="30">Alt</text>
             </g>
         </g>
     </g>
