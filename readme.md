@@ -9,3 +9,7 @@ The other layers are based on [Ergo-L keymap](https://github.com/Nuclear-Squid/E
 ![Corne keymap](./keymap.svg)
 
 Files provided are for [QMK firmware](https://docs.qmk.fm/), with [RP2040](https://docs.qmk.fm/platformdev_rp2040).
+
+Install QMK : https://docs.qmk.fm/cli#qmk-cli  
+Set default keymap : `qmk config user.keymap=c7z`  
+Compile & copy firmware : `qmk compile && cp crkbd_rev1_c7z.uf2 /media/jacques/RPI-RP2/`
