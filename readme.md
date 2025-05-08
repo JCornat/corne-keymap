@@ -12,4 +12,5 @@ Files provided are for [QMK firmware](https://docs.qmk.fm/), with [RP2040](https
 
 Install QMK : https://docs.qmk.fm/cli#qmk-cli  
 Set default keymap : `qmk config user.keymap=c7z`  
+Reset current firmware : Double click on reset button and wait few seconds
 Compile & copy firmware : `qmk compile && cp crkbd_rev1_c7z.uf2 /media/jacques/RPI-RP2/`
