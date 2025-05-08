@@ -57,9 +57,9 @@
         .nav { fill: #e83; }
         .acc { fill: green; }
 
-        .level1, .level2 { opacity: 0.9; }
+        .level1, .level2 { opacity: 1; }
         .sym             { opacity: 0.6; }
-        .nav             { opacity: 0.9; }
+        .nav             { opacity: 1; }
 
         .specialKey rect { fill: #333; }
         rect, path       { fill: #444; }
